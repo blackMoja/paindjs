@@ -1,0 +1,25 @@
+{
+  "name": "paindjs",
+  "version": "1.0.0",
+  "description": "Painting Board made with VanillaJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackMoja/paindjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackMoja/paindjs/issues"
+  },
+  "homepage": "https://github.com/blackMoja/paindjs#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "reset.css": "^2.0.2"
+  }
+}

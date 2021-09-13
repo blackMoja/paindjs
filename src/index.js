@@ -81,13 +81,11 @@ class App {
   };
 
   setEvent() {
-    console.log(this.colors);
     Array.from(this.colors).forEach(color =>
       color.addEventListener('click', this.handleColorClick)
     );
 
     if (this.canvas) {
-      console.log(this.canvas);
       this.canvas.addEventListener('mousemove', this.handleMouseMove);
       this.canvas.addEventListener('mousedown', this.handleStartPainting);
       this.canvas.addEventListener('mouseup', this.handleStopPainting);
